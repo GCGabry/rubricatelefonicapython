@@ -1,13 +1,3 @@
-# **REPOSITORY PRIVATA - per uso interno**
-
-#
-#
-#
-#
-#
-
-
-
 # 📖 Rubrica in Python (Rubricapy)
 
 ### 🧩 Descrizione del Progetto  
