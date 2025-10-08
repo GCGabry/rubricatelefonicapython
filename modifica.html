@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link href="mod_style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alan+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <div id="logo-section" class="logo-center">
+            <div class="emojilogo">📇</div>
+            <div id="subtitle" class="subtitle-center">Modifica ora un contatto!</div>
+            <br>
+        </div>
+    <form id="modificaForm">
+            <div id="errori" display="block">
+                <div class="testo">Errori:</div>
+                <div id="raccolta"></div>
+            </div>
+            <label for="nome">Nome:</label>
+            <div class="contenitore">
+                <div class="from" id="nome_attuale"></div><span>➜</span><input type="text" id="nome" name="nome">
+            </div>
+            <br>
+            <label for="nome">Cognome:</label>
+            <div class="contenitore">
+                <div class="from" id="cognome_attuale"></div><span>➜</span><input type="text" id="cognome" name="cognome">
+            </div>
+            <br>
+            <label for="nome">Email:</label>
+            <div class="contenitore">
+                <div class="from" id="email_attuale"></div><span>➜</span><input type="email" id="email" name="email">
+            </div>
+            <button id="invia" type="button">Invia</button>
+        </form>
+        <script defer src="modifica_contatto.js"></script>
+    </body>
+</html>

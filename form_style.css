@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Alan Sans', regular;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    padding-left: 10px;
+    border: 2px solid rgb(114, 114, 114);
+    border-radius: 20px;
+    width: 60%;
+}
+
+button {
+    font-family: 'Alan Sans', regular;
+    border: 2px solid rgb(114, 114, 114);
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+#errori {
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: none;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(223, 164, 54, 0.877);
+    border-radius: 20px;
+}
+
+#errori.mostra {
+    opacity: 1;
+    display: flex;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+#logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.subtitle-center {
+    font-size: 1rem;
+    color: #646464;
+    text-align: center;
+}
+
+.emojilogo {
+    width: 64px;
+    height: 64px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 12px;
+}

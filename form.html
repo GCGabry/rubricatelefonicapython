@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aggiungi contatto</title>
+        <link href="form_style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alan+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <div id="logo-section" class="logo-center">
+            <div class="emojilogo">📇</div>
+            <div id="subtitle" class="subtitle-center">Aggiungi ora un contatto!</div>
+            <br>
+        </div>
+        <form>
+            <div id="errori" display="block">
+                <div class="testo">Errori:</div>
+                <div id="raccolta"></div>
+            </div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome" required>
+            <br>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button id="invia" type="button">Invia</button>
+        </form>
+        <script src="aggiungi_contatto.js"></script>
+    </body>
+</html>
