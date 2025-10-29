@@ -6,8 +6,8 @@ document.addEventListener('click', event => {
         console.log('ciao');
 
         //creo riferimenti al bottone al div contatto e al suo numero di telefono
-        const button = event.target.closest('.elimina');
-        const contatto_da_eliminare = button.closest('.contatto');
+        const button = event.target.closest('.elimina'); //trovo il bottone da eliminare e creo un riferimento
+        const contatto_da_eliminare = button.closest('.contatto'); //trovo il contatto che contiene il bottone e creo un riferimento
         const numero_di_telefono = contatto_da_eliminare
             .querySelector('.numero_di_telefono')
             .textContent.trim();
